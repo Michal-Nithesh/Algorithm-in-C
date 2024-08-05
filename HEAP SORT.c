@@ -15,7 +15,7 @@ c = i;
 do
 {
 rootElement = (c - 1) / 2;
-if (heap[rootElement] < heap[c]) /* to create MAX heap array */
+if (heap[rootElement] < heap[c])
 {
 tempVar = heap[rootElement];
 
